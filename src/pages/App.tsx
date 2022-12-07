@@ -1,7 +1,7 @@
 import React from 'react';
-import ImageSlider from '../components/carousel/ImageSlider';
-import { SliderData } from '../components/carousel/SliderData';
-import './App.css'
+import ImageSlider from '../components/Carousel/ImageSlider';
+import { SliderData } from '../components/Carousel/SliderData';
+import './Global.css'
 
 function App() {
   return (
