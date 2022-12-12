@@ -26,6 +26,8 @@ export const NavIcon = styled(Link)`
     height: 5rem;
     font-size: 2rem;
     margin-left: 2rem;
+
+    
 `
 
 export const SidebarWrap = styled.div``;

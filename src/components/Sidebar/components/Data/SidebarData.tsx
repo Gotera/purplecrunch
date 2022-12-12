@@ -1,17 +1,18 @@
 import {
     AiFillCaretDown,
     AiFillCaretUp,
-    AiOutlineHistory,
     AiOutlineHome,
     AiOutlineMoneyCollect,
     AiOutlineUser
 } from 'react-icons/ai';
-import { FaCog, FaOpencart  } from 'react-icons/fa';
+import { BsController } from 'react-icons/bs';
+import { HiOutlineBookOpen } from 'react-icons/hi';
+import { BsNewspaper } from 'react-icons/bs';
 import { SidebarItem } from "../../../../models/Sidebaritem";
 
 export const SidebarData: SidebarItem[] = [
     {
-        title: 'Overview',
+        title: 'Navegar',
         path: '/overview',
         icon: <AiOutlineHome />,
         iconOpened: <AiFillCaretDown />,
@@ -30,19 +31,19 @@ export const SidebarData: SidebarItem[] = [
         ]
     },
     {
-        title: 'Order',
-        path: '/order',
-        icon: <FaOpencart />
+        title: 'Mangá',
+        path: '/manga',
+        icon: <HiOutlineBookOpen />
     },
     {
-        title: 'History',
-        path: '/history',
-        icon: <AiOutlineHistory />
+        title: 'Jogos',
+        path: '/jogos',
+        icon: <BsController />
     },
     {
-        title: 'Configurations',
-        path: '/configurations',
-        icon: <FaCog />
+        title: 'Notícias',
+        path: '/noticias',
+        icon: <BsNewspaper />
     }
 
 ]

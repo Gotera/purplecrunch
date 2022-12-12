@@ -1,9 +1,11 @@
 import { FC } from "react";
+import ImageSlider from "../../components/Carousel/ImageSlider";
+import { SliderData } from "../../components/Carousel/SliderData";
 
 export const Overview: FC = () => {
     return (
         <div className="overview">
-            Overview 
+            <ImageSlider slides={SliderData} />
         </div>
     )
 }; 
