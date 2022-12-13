@@ -10,18 +10,26 @@ export const Overview: FC = () => {
     )
 }; 
 
-export const Users: FC = () => {
+export const Populars: FC = () => {
     return (
         <div className="overview">
-            Users 
+            Populares    
         </div>
     )
 }; 
 
-export const Revenue: FC = () => {
+export const News: FC = () => {
     return (
         <div className="overview">
-            Revenue 
+            Novidades 
+        </div>
+    )
+}; 
+
+export const Genres: FC = () => {
+    return (
+        <div className="overview">
+            Gêneros 
         </div>
     )
 }; 

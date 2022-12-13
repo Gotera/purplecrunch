@@ -5,12 +5,11 @@ import {
   History, 
   Order, 
   Overview, 
-  Revenue, 
-  Users 
+  News, 
+  Populars,    
+  Genres
 } from './pages/Overview';
 import Sidebar from './components/Sidebar/Sidebar';
-// import ImageSlider from './components/Carousel/ImageSlider';
-// import { SliderData } from './components/Carousel/SliderData';
 import './Global.css'
 
 
@@ -21,16 +20,15 @@ const App: FC = () => {
         <Sidebar />
         <Routes>
           <Route path='/overview' element={<Overview />} />
-          <Route path='/overview/users' element={<Users />} />
-          <Route path='/overview/revenue' element={<Revenue />} />
+          <Route path='/overview/populars' element={<Populars />} />
+          <Route path='/overview/news' element={<News />} />
+          <Route path='/overview/genres' element={<Genres />} />
           <Route path='order' element={<Order />} />
           <Route path='history' element={<History />} />
           <Route path='configurations' element={<Configurations />} />
         </Routes>
       </Router>
     </React.Fragment>
-
-
   );
 }
 

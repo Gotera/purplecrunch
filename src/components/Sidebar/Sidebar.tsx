@@ -7,7 +7,7 @@ import { Nav, NavIcon, SidebarNav, SidebarWrap } from './stylesSidebar';
 
 const Sidebar: FC = () => {
     const [sidebar, setSidebar] = useState(false);
-        const showSidebar = () => setSidebar(!sidebar);
+    const showSidebar = () => setSidebar(!sidebar);
     return (
         <IconContext.Provider value={{ color: '#fff' }}>
             <Nav>

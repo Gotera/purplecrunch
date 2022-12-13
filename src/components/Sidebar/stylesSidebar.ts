@@ -17,6 +17,7 @@ export const SidebarNav = styled.div<{ sidebar: boolean }>`
     top: 0;
     left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
     transition: 350ms;
+    z-index: 20;
 `;
 
 export const NavIcon = styled(Link)`
@@ -32,3 +33,4 @@ export const NavIcon = styled(Link)`
 
 export const SidebarWrap = styled.div``;
 
+    // filter: ${({ sidebar }) => (sidebar === '0' : )}filter: blur(5px);
