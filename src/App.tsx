@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Navigate, Route, Routes, } from 'react-router-dom';
 import { 
   Configurations, 
   History, 
@@ -16,7 +16,7 @@ import './Global.css'
 const App: FC = () => {
   return (
     <React.Fragment>
-      <Router>
+      <Router >
         <Sidebar />
         <Routes>
           <Route path='/overview' element={<Overview />} />
@@ -26,6 +26,7 @@ const App: FC = () => {
           <Route path='order' element={<Order />} />
           <Route path='history' element={<History />} />
           <Route path='configurations' element={<Configurations />} />
+          <Route path='/' element={<Navigate to="/overview"/>} /> 
         </Routes>
       </Router>
     </React.Fragment>

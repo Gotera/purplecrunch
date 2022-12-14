@@ -1,0 +1,17 @@
+.highlight01ShowCard {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(109, 53, 53);
+}
+.showCardImage {
+    height: 220px;
+    width: 400px;
+}
+.showCardTextContainer{
+
+}
+.showCardTittle {
+    font-size: 28px;
+}
