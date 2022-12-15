@@ -14,6 +14,12 @@ const Sidebar: FC = () => {
                 <NavIcon to='#' onClick={showSidebar}>
                     <AiOutlineMenu />
                 </NavIcon>
+                <img 
+                    src='/assets/images/FavIcon.png' 
+                    alt='PurpleCrunch Logo'
+                    width='200' 
+                    height='50'
+                />
             </Nav>
             <SidebarNav sidebar={sidebar}>
                 <SidebarWrap>

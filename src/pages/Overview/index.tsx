@@ -2,6 +2,7 @@ import { FC } from "react";
 import ImageSlider from "../../components/Carousel/ImageSlider";
 import { SliderData } from "../../components/Carousel/SliderData";
 import { Highlight } from "../../components/Highlight Type01";
+import "./"
 
 export const Overview: FC = () => {
     return (
