@@ -19,14 +19,14 @@ const App: FC = () => {
       <Router >
         <Sidebar />
         <Routes>
-          <Route path='/overview' element={<Overview />} />
+          <Route path='/' element={<Overview />} />
           <Route path='/overview/populars' element={<Populars />} />
           <Route path='/overview/news' element={<News />} />
           <Route path='/overview/genres' element={<Genres />} />
           <Route path='order' element={<Order />} />
           <Route path='history' element={<History />} />
           <Route path='configurations' element={<Configurations />} />
-          <Route path='/' element={<Navigate to="/overview"/>} /> 
+          {/* <Route path='/' element={<Navigate to="/overview"/>} />  */}
         </Routes>
       </Router>
     </React.Fragment>

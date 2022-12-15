@@ -14,7 +14,7 @@ import { SidebarItem } from "../../../../models/Sidebaritem";
 export const SidebarData: SidebarItem[] = [
     {
         title: 'Navegar',
-        path: '/overview',
+        path: '/',
         icon: <AiOutlineHome />,
         iconOpened: <AiFillCaretDown />,
         iconClosed: <AiFillCaretUp />,
