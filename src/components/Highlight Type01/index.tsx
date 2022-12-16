@@ -1,7 +1,13 @@
 import React, { FC } from "react"
 import "./Highlight Type01.css"
+import { HighlightData } from "./Data/HighlightData"; 
+import HighlightItem from "../../models/HighlightItem";
 
-export const Highlight: FC = () => {
+interface HighlightProps {
+    item: HighlightItem;
+}
+
+export const Highlight: React.FC<HighlightProps> = ({ item }: HighlightProps) => {
     return (
         <div className="highlight01ShowCard">
             <img 
@@ -12,18 +18,18 @@ export const Highlight: FC = () => {
             
             <div className="showCardTextContainer">
                 <h4 className="showCardTittle"> 
-                    Demon Slayer: Kimetsu no Yaiba 
+                    { item.title }
                 </h4>
                     <div className="subdiv-span">
                         <span>
-                            Série
+                            { item.category }
                         </span>
                         <span>
-                            Leg | Dub
+                            { item.meta }
                         </span>
                     </div>
                 <p>
-                    Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua...
+                    { item.text }
                 </p>
                 <div className="button-group">
                     <button>

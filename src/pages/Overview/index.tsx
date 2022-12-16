@@ -2,13 +2,14 @@ import { FC } from "react";
 import ImageSlider from "../../components/Carousel/ImageSlider";
 import { SliderData } from "../../components/Carousel/SliderData";
 import { Highlight } from "../../components/Highlight Type01";
+import { HighlightData } from "../../components/Highlight Type01/Data/HighlightData";
 import "./"
 
 export const Overview: FC = () => {
     return (
         <div className="overview">
             <ImageSlider slides={SliderData} />
-            <Highlight />
+            <Highlight item={ HighlightData }/>
         </div>
     )
 }; 
