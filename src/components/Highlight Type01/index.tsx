@@ -1,7 +1,6 @@
-import React, { FC } from "react"
+import React from "react"
 import "./Highlight Type01.css"
-import { HighlightData } from "./Data/HighlightData"; 
-import HighlightItem from "../../models/HighlightItem";
+import HighlightItem from "../../models/StaticCardItem";
 
 interface HighlightProps {
     item: HighlightItem;

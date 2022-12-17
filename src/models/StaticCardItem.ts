@@ -3,5 +3,5 @@ export default interface HighlightItem {
     title: string;
     category: string;
     meta: string;
-    text: string;
+    text?: string;
 }

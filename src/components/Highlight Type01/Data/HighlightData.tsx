@@ -1,4 +1,4 @@
-import HighlightItem from "../../../models/HighlightItem";
+import HighlightItem from "../../../models/StaticCardItem";
 
 export const HighlightData: HighlightItem = {
         image: '/assets/images/f7adcedd1d7c53ae18d851003a3cfae4.jpg',
