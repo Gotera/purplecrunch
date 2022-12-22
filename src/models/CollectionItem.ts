@@ -1,4 +1,4 @@
-export default interface HighlightItem {
+export default interface CollectionItem {
     image: string;
     title: string;
     category: string;

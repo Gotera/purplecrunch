@@ -1,6 +1,6 @@
 import React from "react"
 import "./Highlight Type01.css"
-import HighlightItem from "../../models/StaticCardItem";
+import HighlightItem from "../../models/CollectionItem";
 
 interface HighlightProps {
     item: HighlightItem;
