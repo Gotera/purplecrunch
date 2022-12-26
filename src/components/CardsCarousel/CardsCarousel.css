@@ -1,58 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container {
-    background-color: #e1e1e1;
-    color: #1e1e1e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.container .carousel {
-    display: flex;
+.container {
+    width: 100%;
+    margin: 0 auto;
+    color: #1e1e1e;
+}
+.carousel {
+    width: 90%;
+    padding-inline: 2.5rem;
     overflow-x: auto;
     scroll-behavior: smooth;
-}
-
-.container .item {
-    background-color: #fff;
-    margin: 10px;
-    padding: 10px;
-    width: 280px;
-    flex: none;
-}
-
-.container .image img {
-    object-fit: cover;
-}
-
-.container .info {
-    height: 140px;
+    margin: 0 auto;
+    background-color: #000000;
+    
+    position: relative;  
     display: flex;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+.item {
+    background-color: #000000;
+    margin: 10px;
+    flex: none;
+    width: 140px;
+    height: 280px;
+}
+
+.CellCardimage img {
+    object-fit: cover;
+    width: 140px;
+    height: auto;
+}
+
+.info {
+    height: auto;
     flex-direction: column;
 }
 
-.container .info span {
+.info span {
     display: block;
     text-align: start;
-    color: rgb(236, 17, 17);
     padding: 5px;
-    border-radius: 10px;
 }
 
-.container .title {
+.title {
     font-size: 1.2rem;
     font-weight: bold;
+    color: #F3F3F3;
+    flex-wrap: wrap;
 }
 
-.container .groupInfo {
+.groupInfo {
     display: flex;
     justify-content: flex-start;
 
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     font-weight: bold;
-    background-color: #fff;
+    background-color: #000000;
 }
+
+.category {
+    color: #2abdbb;
+}
+
+.meta {
+    color: #8B8B8C;
+}
+
+
+.arrowContainer {
+    display: inline-block;
+    position: absolute;             
+    top: 50%; 
+    width: 19%;
+}
+.CardCarousel-right-arrow {
+    right: 0;
+    left: auto;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    top: 50%;
+    display: block;
+    background-color: #1e1e1e;
+    color: #F3F3F3;
+}
+
+.CardCarousel-left-arrow {
+    left: 0;
+    right: auto;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    top: 50%;
+    display: block;
+    background-color: #1e1e1e;
+    color: #F3F3F3;
+}
+
+/* .CardCarousel-left-arrow {
+    width: 2rem;
+    right: 0;
+    font-size: 3rem;
+
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    background-color: #1e1e1e;
+    color: #F3F3F3;
+}  */

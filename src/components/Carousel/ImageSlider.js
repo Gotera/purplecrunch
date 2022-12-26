@@ -22,7 +22,6 @@ const ImageSlider = ({ slides }) => {
         return () => clearInterval(interval);
     }, [currentImage, length]);
 
-    console.log(currentImage)
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null;
       }

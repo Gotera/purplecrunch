@@ -43,4 +43,22 @@ export const CollectionData: CollectionItem[] = [
         category: 'Série',
         meta: 'Leg | Dub',
     },
+    {   
+        image: '/assets/images/Collection/DitFCellCard.png',
+        title: 'DARLING in the FRANXX',
+        category: 'Série',
+        meta: 'Leg | Dub',
+    },
+    {   
+        image: '/assets/images/Collection/OverlordCellCard.png',
+        title: 'Overlord',
+        category: 'Série',
+        meta: 'Leg | Dub',
+    },
+    {   
+        image: '/assets/images/Collection/ToYourEternityCellCard.png',
+        title: 'To Your Eternity',
+        category: 'Série',
+        meta: 'Dub',
+    },
 ]
