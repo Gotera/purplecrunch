@@ -8,7 +8,7 @@ type CollectionLinkProps = {
 };
 
 export const CardCarousel = ({ items }:CollectionLinkProps)  => {
-    const carousel  = useRef(null);
+    const carousel  = useRef<HTMLDivElement>(null);
 
     const handleLeftClick = (event: any, ) => {
         event.preventDefault();
