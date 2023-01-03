@@ -12,12 +12,16 @@ export const CardCarousel = ({ items }:CollectionLinkProps)  => {
 
     const handleLeftClick = (event: any, ) => {
         event.preventDefault();
-        carousel.current.scrollLeft += carousel.current.offsetWidth
+        if(carousel.current != null) {  
+            carousel.current.scrollLeft += carousel.current.offsetWidth
+        }
     }
-
+    
     const handleRightClick = (event: any) => {
         event.preventDefault();
-        console.log(carousel.current);
+        if(carousel.current != null) {  
+            carousel.current.scrollLeft -= carousel.current.offsetWidth
+        }
     }
 
     return (

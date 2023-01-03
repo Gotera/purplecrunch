@@ -61,4 +61,42 @@ export const CollectionData: CollectionItem[] = [
         category: 'Série',
         meta: 'Dub',
     },
+    {   
+        image: '/assets/images/Collection/ReincarnatedSlimeCellCard.png',
+        title: 'That Time I Got Reincarnated as a Slime',
+        category: 'Série',
+        meta: 'Leg | Dub',
+    },
+    {   
+        image: '/assets/images/Collection/OnePunchManCellCard.png',
+        title: 'One-Punch Man',
+        category: 'Série',
+        meta: 'Dub',
+    },
+    {   
+        image: '/assets/images/Collection/DeathNoteCellCard.png',
+        title: 'Death Note',
+        category: 'Série',
+        meta: 'Leg | Dub',
+    },
+    {   
+        image: '/assets/images/Collection/HxHCellCard.png',
+        title: 'Hunter x Hunter',
+        category: 'Série',
+        meta: 'Leg | Dub',
+    },
+    {   
+        image: '/assets/images/Collection/ReZeroCellCard.png',
+        title: 'Re:ZERO -Starting Life in Another World-',
+        category: 'Série',
+        meta: 'Dub',
+    },
+    {   
+        image: '/assets/images/Collection/BungoStrayDogsCellCard.png',
+        title: 'Bungo Stray Dogs',
+        category: 'Série',
+        meta: 'Leg | Dub',
+    },
+    
 ]
+
